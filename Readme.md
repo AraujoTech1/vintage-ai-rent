@@ -19,7 +19,7 @@ Por isso, você pode criar o seu próprio banco no [Azure Database for PostgreSQ
 
 - [x] Mensagem de status da API  
 - [x] IA responde perguntas sobre o serviço de aluguel de carros  
-- [x] Integração com banco de dados PostgreSQL (opcional)  
+- [x] Integração com banco de dados PostgreSQL 
 
 ---
 
@@ -27,12 +27,11 @@ Por isso, você pode criar o seu próprio banco no [Azure Database for PostgreSQ
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?logo=postgresql&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-README-lightgrey?logo=markdown)
-
+![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoftazure&logoColor=white)
 ---
 
 ## Bibliotecas e Frameworks
 
-![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-black?logo=uvicorn)
-![OpenAI](https://img.shields.io/badge/OpenAI-LLM-black?logo=openai)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-blue?logo=fastapi)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-blue?logo=uvicorn)
+![OpenAI](https://img.shields.io/badge/OpenAI-LLM-blue?logo=openai)

@@ -33,5 +33,5 @@ Por isso, você pode criar o seu próprio banco no [Azure Database for PostgreSQ
 ## Bibliotecas e Frameworks
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-blue?logo=fastapi)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-blue?logo=uvicorn)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-003366?logo=uvicorn&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-LLM-blue?logo=openai)

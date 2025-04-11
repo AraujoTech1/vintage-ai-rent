@@ -28,7 +28,7 @@ Por isso, você pode criar o seu próprio banco no [Azure Database for PostgreSQ
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoftazure&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-5-blue?logo=html5&logoColor=white)
 
 ---
 

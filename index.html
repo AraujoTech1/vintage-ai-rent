@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vintage AI Rent</title>
+  <style>
+    body {
+      background-color: #1c1c1c;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    h1 {
+      color: #ffcc00;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    button {
+      background: #ffcc00;
+      border: none;
+      cursor: pointer;
+    }
+    #resposta {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚘 Vintage AI Rent</h1>
+  <p>Faça uma pergunta sobre o aluguel de carros antigos:</p>
+  <input type="text" id="pergunta" placeholder="Ex: Esse carro vermelho está disponível?" size="50" />
+  <button onclick="enviarPergunta()">Perguntar</button>
+
+  <div id="resposta"></div>
+
+  <script>
+    async function enviarPergunta() {
+      const pergunta = document.getElementById("pergunta").value;
+      const respostaDiv = document.getElementById("resposta");
+
+      if (!pergunta) {
+        respostaDiv.innerText = "Digite uma pergunta!";
+        return;
+      }
+
+      try {
+        const res = await fetch(`http://localhost:8000/perguntar?pergunta=${encodeURIComponent(pergunta)}`);
+        const data = await res.json();
+        respostaDiv.innerHTML = `
+          <strong>Pergunta:</strong> ${data.pergunta}<br/>
+          <strong>Resposta IA:</strong> ${data.resposta}
+        `;
+      } catch (err) {
+        respostaDiv.innerText = "Erro ao conectar com a API 😥";
+        console.error(err);
+      }
+    }
+  </script>
+</body>
+</html>

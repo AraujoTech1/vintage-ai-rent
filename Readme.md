@@ -1,5 +1,4 @@
 <h1 align="center">🚗 Vintage AI Rent</h1>
-
 <h3 align="center">Sistema inteligente de aluguel de carros antigos com integração de LLMs.</h3>
 
 ---
